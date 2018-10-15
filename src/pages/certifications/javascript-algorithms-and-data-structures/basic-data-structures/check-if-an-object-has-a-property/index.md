@@ -52,3 +52,12 @@ function isEveryoneHere(obj) {
 }
 
 ```
+
+### Solution-3:
+```javascript
+
+function isEveryoneHere(obj) {
+  return (users.hasOwnProperty('Alan','Jeff','Sarah','Ryan'));
+}
+
+```
